@@ -1,0 +1,30 @@
+package SobrevivendoAtividadeI;
+
+public class Atividade {
+
+	public String Alo() {
+		return "Alo mundo!";
+	}
+
+	public int numeroInformado(int valor) {
+		return valor;
+	}
+
+	public float Soma(float valor1, float valor2) {
+		float soma = valor1 + valor2;
+		return soma;
+	}
+	
+	public float Media(float soma){
+		return soma/4;
+	}
+	
+	public float Conversao(float metros) {
+		return metros * 100;
+	}
+	
+	public float AreaCirculo(float raio) {
+		return 3.14 * Math.pow(raio, 2);
+	}
+
+}

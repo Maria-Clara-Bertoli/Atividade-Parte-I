@@ -1,0 +1,9 @@
+package SobrevivendoAtividadeI;
+
+public class Atividade {
+	
+	public String Alo() {
+		return "Alo mundo!";
+	}
+
+}

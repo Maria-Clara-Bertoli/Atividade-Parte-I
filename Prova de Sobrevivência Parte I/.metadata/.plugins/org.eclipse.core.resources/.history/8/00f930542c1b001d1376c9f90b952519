@@ -1,0 +1,59 @@
+package SobrevivendoAtividadeI;
+
+public class Atividade {
+	
+	private float a;
+	private double b;
+	private double c;
+
+	public String Alo() {
+		return "Alo mundo!";
+	}
+
+	public int numeroInformado(int valor) {
+		return valor;
+	}
+
+	public float Soma(float valor1, float valor2) {
+		float soma = valor1 + valor2;
+		return soma;
+	}
+	
+	public float Media(float soma){
+		return soma/4;
+	}
+	
+	public float Conversao(float metros) {
+		return metros * 100;
+	}
+	
+	public double AreaCirculo(double raio) {
+		return 3.14 * Math.pow(raio, 2);
+	}
+	
+	public double AreaQuadrado(double lado) {
+		return Math.pow(lado, 2);
+	}
+	
+	public float Salario(float grana, int hora) {
+		return grana * hora;
+	}
+	
+	public double ConversaoTemperatura(double temperatura) {
+		return (temperatura - 32)/1.8;
+	}
+	
+	public void Conta(int valor1, int valor2, double valor3){
+		a = (valor1 * 2) * (valor2/2);
+		b = (valor1 * 3) + valor3;
+		c = Math.pow(valor3, 3);
+		System.out.println("Letra a: " + a);
+		System.out.println("Letra b: " + b);
+		System.out.println("Letra c: " + c);
+	}
+	
+	public float PesoIdeal(float altura) {
+		
+	}
+
+}

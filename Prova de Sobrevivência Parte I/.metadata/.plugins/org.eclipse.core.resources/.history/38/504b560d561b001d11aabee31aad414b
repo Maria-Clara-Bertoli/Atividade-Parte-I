@@ -1,0 +1,38 @@
+package SobrevivendoAtividadeII;
+
+public class AtividadeSelecao {
+
+	private double precototal;
+	private double valorapagar;
+	private double valordodesconto;
+
+	public void CompraCarne(int tipo, float quantidade, char decisao) {
+		if (quantidade <= 5) {
+			if (tipo == 1) {
+				precototal = quantidade * 4.90;
+			}
+			if (tipo == 2) {
+				precototal = quantidade * 5.90;
+			}
+			if (tipo == 3) {
+				precototal = quantidade * 6.90;
+			}
+		}
+		if (quantidade > 5) {
+			if (tipo == 1) {
+				precototal = quantidade * 5.80;
+			}
+			if (tipo == 2) {
+				precototal = quantidade * 6.80;
+			}
+			if (tipo == 3) {
+				precototal = quantidade * 7.80;
+			}
+		}
+		if (decisao == 'S') {
+			valordodesconto = (precototal/100)*5;
+			valorapagar = precototal - valordodesconto;
+		}
+	}
+
+}

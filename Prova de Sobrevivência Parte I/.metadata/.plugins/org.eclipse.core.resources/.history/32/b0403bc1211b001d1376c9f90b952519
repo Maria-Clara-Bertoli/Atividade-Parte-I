@@ -1,0 +1,15 @@
+package SobrevivendoAtividadeI;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Atividade ati = new Atividade();
+		
+		System.out.println("Número 1");
+		System.out.println(ati.Alo());
+		System.out.println("Número 2");
+
+	}
+
+}

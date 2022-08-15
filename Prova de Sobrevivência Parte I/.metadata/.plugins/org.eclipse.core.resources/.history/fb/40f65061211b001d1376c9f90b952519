@@ -1,0 +1,15 @@
+package SobrevivendoAtividadeI;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner valor = new Scanner (System.in);
+		System.out.println("Informe um valor: ");
+		int variavel = valor.nextInt();
+		
+		valor.close();
+	}
+
+}

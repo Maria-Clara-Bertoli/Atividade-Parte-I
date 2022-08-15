@@ -1,0 +1,9 @@
+package SobrevivendoAtividadeI;
+
+public class Main {
+
+	Atividade ati = new Atividade();
+	
+	ati.Alo();
+
+}

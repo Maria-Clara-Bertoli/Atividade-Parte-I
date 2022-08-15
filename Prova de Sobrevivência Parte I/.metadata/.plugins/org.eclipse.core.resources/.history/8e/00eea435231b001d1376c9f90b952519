@@ -1,0 +1,13 @@
+package SobrevivendoAtividadeI;
+
+public class Atividade {
+	
+	public String Alo() {
+		return "Alo mundo!";
+	}
+	
+	public int numeroInformado(int valor) {
+		return valor;
+	}
+
+}
